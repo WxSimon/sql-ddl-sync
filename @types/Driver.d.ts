@@ -81,6 +81,7 @@ declare namespace FxOrmSqlDDLSync__Driver {
         column_name: string
 
         non_unique: number|boolean
+        [propName: string]: any
     }
 
     interface DbIndexInfo_SQLite extends FxOrmSqlDDLSync__DbIndex.DbIndexInfo {
